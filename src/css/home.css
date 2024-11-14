@@ -6,14 +6,21 @@ header{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    background-color: rgba(122, 172, 36, 0.658);
+    background-color: #d4c098;
     padding: 3vh 5vh;
     padding-right: 7vw;
+}
+.logo{
+    color: #481800;
 }
 
 footer{
     padding-top: 20%;
     text-align: center;
+
+}
+body{
+    background-color: #f7f6e4;
 }
 
 nav ul{
@@ -22,9 +29,12 @@ nav ul{
     gap: 5vw; 
     list-style-type: none;
     cursor:pointer;   
+    color:#938172;
+    font-size: 20px;
+    font-weight: 900;
 }
 nav ul li:hover{
-    color:aliceblue;
+    color:#5f3711;
     transition: 500ms;
 }
 .btn{
@@ -41,10 +51,10 @@ nav ul li:hover{
     background-color: rgba(231, 92, 41, 0.658);
 }
 #btn2{
-    background-color: rgb(101, 248, 204);
+    background-color: #f7c081;
 }
 #btn3{
-    background-color: rgb(255, 255, 255);
+    background-color: #f7f6e4;
 }
 .slider{
     margin:0 auto;
@@ -52,7 +62,7 @@ nav ul li:hover{
     height: 400px;
     overflow: hidden;
     margin-top: 5%;
-    border: 10px solid #1e68f196;
+    border: 10px solid #5f3711;
     border-radius: 100px;
     
 }
