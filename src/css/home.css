@@ -7,7 +7,7 @@
 body {
     background-color: #f7f6e4;
 }
-.login{
+.btn_login{
     display: flex;
     justify-items: center;
     padding:5px;
@@ -17,6 +17,7 @@ body {
    margin-left: 50%;
     
 }
+
 
 a {
    
