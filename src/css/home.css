@@ -17,6 +17,9 @@ body {
    margin-left: 50%;
     
 }
+button{
+    cursor: pointer;
+}
 
 
 a {
@@ -192,3 +195,96 @@ nav ul li:hover {
 #radio4:checked ~ .navigation-auto .auto-btn4 {
     background-color: #fff;
 }
+
+
+
+
+/*QUIZ*/
+
+
+.quiz_box {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+
+.perguntas {
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.perguntas h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    border: 2px solid rgb(21, 255, 0);
+}
+
+label {
+    font-size: 1.2rem;
+    border: 2px solid rgb(0, 17, 255);
+    margin-inline: 3%;
+   
+    
+}
+input{
+    cursor: pointer;
+}
+.p1{
+    border: 2px solid rgb(217, 255, 0);
+    margin: 6%;
+}
+.p2{
+    border: 2px solid rgb(217, 255, 0);
+    margin: 6%;
+}
+
+.p3{
+    border: 2px solid rgb(217, 255, 0);
+    margin: 6%;
+}
+
+.p4{
+    border: 2px solid rgb(217, 255, 0);
+    margin: 6%;
+}
+
+.p5{
+    border: 2px solid rgb(217, 255, 0);
+    margin: 6%;
+}
+
+.p6{
+    border: 2px solid rgb(217, 255, 0);
+    margin: 6%;
+}
+
+.p7{
+    border: 2px solid rgb(217, 255, 0);
+    margin: 6%;
+}
+
+.p8{
+    border: 2px solid rgb(217, 255, 0);
+    margin: 6%;
+}
+.p9{
+    border: 2px solid rgb(217, 255, 0);
+    margin: 6%;
+}
+.p10{
+    border: 2px solid rgb(217, 255, 0);
+    margin: 6%;
+}
+#enviar{
+    scale:150%;
+    border-radius: 100px;
+    padding: 1%;
+    background-color:#d4c098;
+    color:#5f3711;
+}
+
+
+
+

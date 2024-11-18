@@ -46,10 +46,11 @@ h2{
 }
 
 .login h1 {
-    font-weight: 700%;
-    font-size: 300%;
-    
+    font-size: 4rem;
+    font-style: oblique; 
+    color: rgba(0, 0, 0, 0.671);
 }
+
 
 .login input {
     
@@ -65,7 +66,12 @@ h2{
 .login button {
     margin-top: 13%;
     border-radius: 100px;
-    width: 40%;}
+    width: 40%;
+}
+.login button:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+}
 .userBox{
     display: flex;
     align-items: center;
