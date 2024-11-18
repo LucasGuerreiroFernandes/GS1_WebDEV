@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+
     
 }
 
@@ -18,41 +19,87 @@ body {
 
     
 }
-
+h2{
+    font-size:medium;
+    color:rgb(0, 0, 0);
+}
+.minUser{
+    
+    margin: -20%; 
+}
+.minSenha{
+    
+    margin: -20%;
+   
+}
 .login {
     border: 2px solid rgba(0, 0, 0, 0.527);
     display: flex;
     flex-flow: column;
     padding: 5vh;
     margin-bottom: 25vh;
-    gap: 5vh;
+    gap: 4vh;
     text-align: center;
-    padding-inline: 10vh;
+    padding-inline: 5vh;
     border-radius: 100px;
     background-color: rgba(152, 118, 160, 0.527);
 }
 
 .login h1 {
-    font-weight: 700;
+    font-weight: 700%;
     font-size: 300%;
     
 }
 
 .login input {
+    
     padding: 2vh;
     font-size: 2vh;
     text-align: center;
     border-radius: 100px;    
     font-style:oblique ;
-    font-weight: 800;
-    
-    
+    font-weight: 800;   
+   
 }
 
 .login button {
+    margin-top: 13%;
     border-radius: 100px;
-    width: 40%;
+    width: 40%;}
+.userBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9vh;
+    margin-bottom: 2vw;
+}
+.senhaBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9vh;
+}
+.minSenha{
+    padding-top: 1.8vw;
+    position: relative;
+    top: -3vh;
+   visibility: hidden;
+}
+.minUser{
+    position: relative;
+    top: -3vh;
+    visibility: hidden;
+}
+.userBox span{
+    scale: 40%;
+    color: rgb(115, 212, 17);
+    margin-bottom: 2%;
+    visibility: hidden;
     
 }
-
-
+.senhaBox span{
+    scale: 40%;
+    margin-bottom: 2%;
+    color: rgb(115, 212, 17);
+    visibility: hidden;
+}

@@ -9,11 +9,25 @@
 <body>
     <div class="login">
         <h1>Login</h1>
-        <input type="text" placeholder="Username" id="user" maxlength="14" required>
-        <input type="password" placeholder="Senha" id="senha" required>
+        <div class="userBox">
+            <input type="text" placeholder="Username" id="user" maxlength="14" required>
+            <span style='font-size:100px;' id="checkUser">&#9745;</span>
+        </div>
+        <div class=minUser>
+            <h2 id="user-men">*Mínimo de 8 Caractéres*</h2>
+        </div>
+            
+        <div class="senhaBox">
+            <input type="password" placeholder="Senha" id="senha" required>
+            <span style='font-size:100px;' id="checkSenha">&#9745;</span>
+        </div>
+        
+        <div class=minSenha>
+            <h2 id="senha-men">*Mínimo de 9 Caractéres*</h2>
+        </div>
         <div>
             
-            <button onclick="submit">Cadastrar</button>
+            <button onclick="submit()">Cadastrar</button>
         </div>
 
     </div>
@@ -22,6 +36,6 @@
     <div>
         <footer>&copy; 2024 Mundo Verde - Todos os direitos reservados</footer>
     </div>
-    <script src="./src/js/home.js"></script>
+    <script src="./src/js/login.js"></script>
 </body>
 </html>
