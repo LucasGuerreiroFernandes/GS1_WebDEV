@@ -6,7 +6,7 @@ function submit(){
     var senha_num = document.getElementById("senha").value;
     var check_user = document.getElementById("checkUser");
     var check_senha = document.getElementById("checkSenha");
-    if (usuario_num.length < 7){
+    if (usuario_num == ("adm")){
         mensagem.style.visibility = "visible";
         check_user.style.visibility = "hidden";
     }
@@ -14,7 +14,7 @@ function submit(){
          mensagem.style.visibility = 'hidden';
          check_user.style.visibility = "visible";
     }
-    if(senha_num.length < 8){
+    if(senha_num == ("adm123")){
         mensagemSenha.style.visibility = "visible";
         check_senha.style.visibility = "hidden";
     }
@@ -23,7 +23,7 @@ function submit(){
         check_senha.style.visibility = "visible";
         
     }
-    if(usuario_num.length >= 8 && senha_num.length >= 9){
+    if(usuario_num == ("adm") && senha_num == ("adm123")){
         window.location.href="quiz.html"
     }
 }

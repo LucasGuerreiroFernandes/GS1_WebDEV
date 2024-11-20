@@ -195,101 +195,35 @@ nav ul li:hover {
 #radio4:checked ~ .navigation-auto .auto-btn4 {
     background-color: #fff;
 }
-
-
-
-
-/*QUIZ*/
-
-
-.quiz_box {
-    width: 90%;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: left;
+/*--------------------------------------------------------*/
+.formulario{
+    width: 20%;
     border: 2px solid black;
-    
+    margin: 0 auto;
+    margin-top: 10%;
+    scale: 130%;
+   
 }
-
-.perguntas input{
-
-    scale: 200%;
-    margin-left: 40%;
-    margin-bottom: 6%;
-}
-
-
-.perguntas h2 {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
-    
-}
-
-.quiz_box label {
+.text_contato{
     display: flex;
-    font-size: 1.1rem;
-    flex-direction: column;
-    margin-inline: 3%;
+    justify-content: center;
+    border-bottom: 2px solid black;
+}
+.input_login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  border: 2px solid blueviolet;
+}
+.input_login input{
+    margin: 5%;
+}
+.formulario button{
+    display: flex;
+    margin: 0 auto;
     
 }
-input{
-    cursor: pointer;
+#telefone_contato{
+    margin-left: 8%;
 }
-.p1{
-    
-    margin: 6%;
-    border-bottom: 2px solid #000000;
-}
-.p2{
-    border-bottom: 2px solid #000000;
-    margin: 6%;
-}
-
-.p3{
-    border-bottom: 2px solid #000000;
-    margin: 6%;
-}
-
-.p4{
-    border-bottom: 2px solid #000000;
-    margin: 6%;
-}
-
-.p5{
-    border-bottom: 2px solid #000000;
-    margin: 6%;
-}
-
-.p6{
-    border-bottom: 2px solid #000000;
-    margin: 6%;
-}
-
-.p7{
-    border-bottom: 2px solid #000000;
-    margin: 6%;
-}
-
-.p8{
-    border-bottom: 2px solid #000000;
-    margin: 6%;
-}
-.p9{
-    border-bottom: 2px solid #000000;
-    margin: 6%;
-}
-.p10{
-    border-bottom: 2px solid #000000;
-    margin: 6%;
-}
-#enviar{
-    
-    border-radius: 100px;
-    padding: 1%;
-    background-color:#d4c098;
-    color:#5f3711;
-}
-
-
-
-
