@@ -232,6 +232,9 @@ nav ul li:hover {
     margin-inline: 3%;
     
 }
+.titulo{
+    margin-left: 50%;
+}
 input{
     cursor: pointer;
 }
@@ -283,7 +286,7 @@ input{
     margin: 6%;
 }
 #enviar{
-    
+    margin-left: 50%;
     border-radius: 100px;
     padding: 1%;
     background-color:#d4c098;

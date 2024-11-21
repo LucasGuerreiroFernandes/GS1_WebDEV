@@ -9,18 +9,29 @@ function btn3_true(){
 }
 function enviar() {
     var check1 = document.getElementById("r1b");
+    
     var check2 = document.getElementById("r2b");
+   
     var check3 = document.getElementById("r3a");
+    
     var check4 = document.getElementById("r4a");
+    
     var check5 = document.getElementById("r5b");
+   
     var check6 = document.getElementById("r6a");
+   
     var check7 = document.getElementById("r7a");
+    
     var check8 = document.getElementById("r8a");
+   
     var check9 = document.getElementById("r9b");
+    
     var check10 = document.getElementById("r10a");
+    
 
     var pontos = 0;
-    
+
+
     if(check1 && check1.checked){
         pontos++;
     }
@@ -51,7 +62,9 @@ function enviar() {
     if(check10 && check10.checked){
         pontos++;
     }
-    
+    if(pontos < 0 ){
+        pontos=0
+    }
     alert('Pontos: ' + pontos );
     pontos = 0;
 }

@@ -195,36 +195,16 @@ nav ul li:hover {
 #radio4:checked ~ .navigation-auto .auto-btn4 {
     background-color: #fff;
 }
-/*--------------------------------------------------------*/
-.formulario{
-    width: 20%;
-    border: 2px solid black;
-    margin: 0 auto;
-    margin-top: 10%;
-    scale: 130%;
-   
+/*---------------------------------------------------------------------------*/
+
+.sobre{
+   width: 70%; 
+   margin: 0 auto;
+   font-size:x-large;
 }
-.text_contato{
-    display: flex;
-    justify-content: center;
-    border-bottom: 2px solid black;
+.section__title{
+    margin-bottom: 2%;
+    margin-top: 4%;
 }
-.input_login{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 5%;
-  margin-left: 5%;
-  
-}
-.input_login input{
-    margin: 5%;
-}
-.formulario button{
-    display: flex;
-    margin: 0 auto;
+
     
-}
-#telefone_contato{
-    margin-left: 8%;
-}
